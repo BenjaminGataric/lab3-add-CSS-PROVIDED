@@ -1,20 +1,8 @@
 .services {
      font: italic;
      background-color: #e7e7e7;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     padding-left: 15px;
-     padding-right: 15px;
-     margin-bottom: 40px;
 }
-.story {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-bottom: 40px;
-}
-.locations {
+.story, .locations, .services {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -25,20 +13,20 @@ a.hover {
     text-decoration: none;
     color: #00376c;
 }
+header, footer {
+    margin-bottom: 40px;
+    text-align: center;
+}
 header{
     border-bottom: 6ex;
     border-color: #7b7b7b;
     line-height: 80px;
-    text-align: center;
     background-color: #c7e3ff;
-    margin-bottom: 40px;
 }
 footer {
     font: italic;
     padding: 10px;
-    text-align: center;
     background-color: #c7e3ff;
-    margin-bottom: 40px;
 }
 h2 {
     border-bottom: 2px;

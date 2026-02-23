@@ -8,9 +8,10 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 40px;
+    text-decoration: none;
 }
 a.hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #00376c;
 }
 header, footer {
